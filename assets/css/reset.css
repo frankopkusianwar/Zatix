@@ -106,8 +106,8 @@ section {
 }
 
 body {
-  line-height: 1;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  /* line-height: 1;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; */
 }
 
 ol,

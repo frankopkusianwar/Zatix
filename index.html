@@ -3,11 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <title>Zatix</title>
+    <title>ZATTIX</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="nav">
+            <div class="nav-content">
+                <div class="header-logo d-flex"><img src="assets/img/logo.PNG" alt="logo" class="border-0"><h3 class="align-self-center m-1">ZATTIX</h3></div>
+                <ul  class="nav-links d-flex">
+                    <li class="mx-4 home"><a href="#"><i class="fa fa-home mx-3"></i>HOME</a></li>
+                    <li class="d-flex mx-4 nav-icon"><img src="assets/img/colection_icon.PNG" alt="collections" class="mx-3"><a href="#" class="mt-1">COLLECTIONS</a></li>
+                    <li class="mx-4"><a href="#"><i class="fa fa-shopping-cart mx-3"></i>PURCHASE LIST</a></li>
+                </ul>
+                <div class="nav-btn mx-4"><button>POST AN AD</button></div>
+                <div class="d-flex profile"><i class="fa fa-envelope align-self-center mr-4"></i><p class="align-self-center m-1">John Doe</p><img src="assets/img/johndoe.webp" alt="profile" class="prof-img"></div>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>ZATTIX</h1>
+            <p class="mb-5">Buying And Selling farm equipment Couldn't be Simpler than this!</p>
+            <form action="#">
+                <select class="inpt-txt">
+                    <option value="All Equipments">All Equipments</option>
+                    <option value="Tractor">Tractor</option>
+                    <option value="Garden tools">Garden tools</option>
+                    <option value="Spraying Cans">Spraying Cans</option>
+                  </select>
+                <input type="text" placeholder="What do you serach for?" class="pl-1 inpt-txt inpt-txt-spcl">
+                <input type="text" placeholder="Type" class="pl-1 inpt-txt inpt-txt-spcl">
+                <button class="btn-search">Search</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="ad-content mt-2">
+            <div class="align-self-center ad-content-angle mr-4"><i class="fa fa-angle-left px-2 py-1"></i></div>
+            <div>
+                <h4 class="mb-2">HOT ADS</h4>
+                <img src="assets/img/motor.webp" class="ad-content-img" alt="motor">
+                <div><i class="fa fa-angle-left"></i><i class="fa fa-angle-right"></i></div>
+            </div>
+            <div class="mt-4 ml-3 ad-content-txt">
+                <h4>SAMRAT MOBILE MOTOR CONTROLLER</h4>
+                <p class="mt-1 mb-2">
+                    Samrat mobile motor controller allows the farmer to remotely control the 
+                    agricultural motor pump using the mobile or landline. An IVRS (Interactive Voice Response System) 
+                    in local language helps in making selections for switching ON or OFF. Farmers also receive voice
+                    alerts for faulty power supply, motor not starting, lack of water 
+                    in the well/bore, and attempt of device/ motor theft.
+                </p>
+                <p>By: John Doe</p>
+                <p class="mb-2">Location: Kampala</p>
+                <div class="ad-content-btns">
+                    <button class="border-top-0 border-left-0 border-bottom-0">$400</button>
+                    <button class="border-0"><i class="fa fa-shopping-cart mr-2"></i>Purchase Details</button>
+                </div>
+            </div>
+            <div class="align-self-center ad-content-angle ml-4"><i class="fa fa-angle-right px-2 py-1"></i></div>
+        </div>
+        <div></div>
+    </main>
+    <footer></footer>
 </body>
 </html>

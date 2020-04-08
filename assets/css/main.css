@@ -1,0 +1,123 @@
+
+/* nav links */
+.nav-links li a {
+    color: #888888;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+.nav-links li i {
+    font-size: 1.3em;
+}
+
+.nav-links .home a {
+    color: #d35266;
+}
+
+.nav {
+    background: #383838;
+    padding: 5px;
+}
+.nav-content {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    color: #ffffff;
+}
+
+.nav-links {
+    align-self: center;
+}
+
+.nav-btn {
+    align-self: center;
+}
+
+.nav-btn button{
+    background: #d35266;
+    color: #ffffff;
+    padding: 5px;
+    border: 0px;
+}
+
+.profile{
+    margin-left: auto
+}
+
+.nav-icon img {
+    height: 15px;
+    border: none;
+}
+
+.prof-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+.header-content {
+    background: #d35266;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+}
+
+.header-content h1 {
+    font-size: 3em;
+}
+
+.btn-search {
+    background: #383838;
+    width: 100px;
+    border: none;
+    height: 50px;
+}
+
+.inpt-txt {
+    border: none;
+    height: 50px;
+    color: #888888;
+}
+
+.inpt-txt-spcl {
+    width: 20%;
+}
+
+.ad-content {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.ad-content-angle {
+    border: 1px solid #888888;
+    color: #d35266;
+    border-radius: 50%;
+}
+
+.ad-content-img {
+    height: 200px;
+    width: 400px;
+}
+
+.ad-content-txt h4 {
+    color: #d35266;
+}
+
+.ad-content-txt p{
+    font-size: 0.8em;
+}
+
+.ad-content-btns {
+    width: 40%;
+    background: #d35266;
+    border-right: 1px solid #d35266;
+    border-left: 1px solid #d35266;
+    border-radius: 7px;
+}
+
+.ad-content-btns button {
+    background-color: #d35266;
+    padding: 8px;
+    color: #ffffff;
+}
