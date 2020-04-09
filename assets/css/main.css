@@ -72,6 +72,12 @@
     padding: 40px;
 }
 
+.header-content-serch{
+    text-align: left;
+    padding: 20px;
+    padding-left: 80px;
+}
+
 .header-content h1 {
     font-size: 3em;
 }
@@ -157,4 +163,13 @@
 
 .card-plus i {
     font-size: 1.6em;
+}
+
+.serch-paragraph {
+    color: #d35266;
+}
+
+.serch-btn {
+    color: white;
+    background: #d35266;
 }
