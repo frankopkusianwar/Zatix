@@ -165,7 +165,7 @@
     font-size: 1.6em;
 }
 
-.serch-paragraph {
+.serch-paragraph, .footer-colored-p {
     color: #d35266;
 }
 
@@ -173,4 +173,8 @@
     color: white;
     background: #d35266;
     border-radius: 3px;
+}
+
+.footer-icon2 i {
+    color: #888888;
 }
