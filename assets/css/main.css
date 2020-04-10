@@ -44,6 +44,7 @@
     background: #383838;
     padding: 5px;
     font-family: 'Gotham-Rounded-Light';
+    font-size: 0.8em;
 }
 .nav-content {
     display: flex;
@@ -177,10 +178,6 @@
     font-size: 0.8em;
 }
 
-.card-body p {
-    font-size: 0.8em;
-}
-
 .card-money {
     color: #d35266;
 }
@@ -206,4 +203,37 @@
 
 .footer-icon2 i {
     color: #888888;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .nav {
+        font-size: 0.6em;
+    }
+
+    .inpt-txt-spcl {
+        width: 25%;
+    }
+
+    .ad-content {
+        width: 93%;
+    }
+
+    .main-cont-txt {
+        font-size: 0.8em;
+    }
+
+    .card-tlte, .card div p{
+        font-size: 0.7em;
+    }
+    footer {
+        font-size: 0.65em;
+    }
+    .Search-txt {
+        font-size: 0.8em;
+    }
+
+    aside {
+        font-size: 0.6em;
+    }
 }
