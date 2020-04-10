@@ -2,7 +2,7 @@
 
 > Html Capstone Project - online shop for Farm Equipment
 
-This online shop for farm equipment layout was designed folowing a design by ## Mohammed Awad on beehance.
+This online shop for farm equipment layout was designed folowing a design by **Mohammed Awad** on beehance.
 All the design specification of Awad's design such as colour, typography and basic layouts were added to this project
 
 ![screenshot](assets/img/screenshot.PNG)
