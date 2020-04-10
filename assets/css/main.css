@@ -240,9 +240,48 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .header-logo img{
+        height: 30px;
+        width: 30px;
+    }
 
-
-    .nav-content {
+    .nav {
+        padding: 1px;
+        position: fixed;
+        top: 0;
         width: 100%;
+        font-size: 0.5em;
+    }
+
+    .nav-icon a {
+        margin-top: 3px;
+    }
+
+    .ad-content {
+        display: block;
+    }
+
+    .nav-btn button{
+        padding: 2px;
+    }
+
+    .ad-content-angles {
+        margin-left: 210px;
+    }
+
+    .main-cont-txt {
+        font-size: 0.6em;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .nav {
+        font-size: 0.1em;
+    }
+
+    .header-logo img {
+        height: 25px;
     }
 }
+
