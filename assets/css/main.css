@@ -266,11 +266,15 @@
     }
 
     .ad-content-angles {
-        margin-left: 210px;
+        margin-left: 170px;
     }
 
     .main-cont-txt {
         font-size: 0.6em;
+    }
+
+    .serach-img img {
+        width: 100%;
     }
 
 }
@@ -282,6 +286,9 @@
 
     .header-logo img {
         height: 25px;
+    }
+    .ad-content-angles {
+        margin-left: 112px;
     }
 }
 
