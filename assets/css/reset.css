@@ -112,8 +112,8 @@ section {
 }
 
 body {
-  color: #888888;
-  font-family: 'Helvetica-Neue-Light';
+  color: #888;
+  font-family: 'Helvetica-Neue-Light', sans-serif;
 }
 
 ol,
