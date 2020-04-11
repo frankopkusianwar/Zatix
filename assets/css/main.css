@@ -216,6 +216,14 @@
   footer {
     font-size: 0.65em;
   }
+
+  .serach-img img {
+    width: 100%;
+  }
+
+  .ad-content-angles {
+    margin-left: 359px;
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */
