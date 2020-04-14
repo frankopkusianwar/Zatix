@@ -198,10 +198,19 @@
   font-size: 0.9em;
 }
 
+.Search-txt {
+  margin-left: 15px;
+}
+
 .serch-btn {
   color: white;
   background: #d35266;
   border-radius: 3px;
+}
+
+.plus-txt {
+  display: flex; 
+  justify-content: space-between;
 }
 
 .footer-h1 {
