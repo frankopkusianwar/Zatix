@@ -52,7 +52,7 @@
   background: #383838;
   padding: 5px;
   font-family: 'Gotham-Rounded-Light', sans-serif;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .nav-content {
@@ -60,6 +60,10 @@
   width: 90%;
   margin: auto;
   color: #fff;
+}
+
+.nav-content-i {
+  font-size: 1.8em;
 }
 
 .nav-links,
@@ -114,7 +118,8 @@
 }
 
 .btn-search {
-  background: #383838;
+  background: #888;
+  color: #fff;
   width: 100px;
   border: none;
   height: 50px;
@@ -188,11 +193,11 @@
   font-size: 1.2rem;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 1024px and down) */
 @media only screen and (max-width: 1024px) {
   .nav,
   aside {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
 
   .inpt-txt-spcl {
@@ -217,12 +222,8 @@
     font-size: 0.65em;
   }
 
-  .serach-img img {
-    width: 100%;
-  }
-
-  .ad-content-angles {
-    margin-left: 359px;
+  .ad-content-angles-search {
+    margin-left: 212px;
   }
 }
 
@@ -254,7 +255,11 @@
   }
 
   .ad-content-angles {
-    margin-left: 170px;
+    margin-left: 210px;
+  }
+
+  .ad-content-angles-search {
+    margin-left: 143px;
   }
 
   .main-cont-txt {
@@ -267,15 +272,15 @@
 }
 
 @media only screen and (max-width: 320px) {
-  .nav {
-    font-size: 0.1em;
-  }
-
-  .header-logo img {
-    height: 25px;
-  }
-
   .ad-content-angles {
-    margin-left: 112px;
+    margin-left: 225px;
+  }
+
+  .serach-img img {
+    width: 100%;
+  }
+
+  .ad-content-angles-search {
+    margin-left: 92px;
   }
 }
