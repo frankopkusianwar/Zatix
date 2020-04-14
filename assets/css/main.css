@@ -178,6 +178,22 @@
   color: #d35266;
 }
 
+.shop-items {
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+  margin: auto;
+}
+
+.shop-items-card {
+  width: 18%;
+}
+
+.shop-items-card-1 {
+  border-left: 1px solid #383838;
+  padding-left: 5px;
+}
+
 .main-cont-txt p small {
   font-size: 0.9em;
 }
@@ -266,6 +282,14 @@
   .serach-img img {
     width: 100%;
   }
+
+  .shop-items {
+    flex-wrap: wrap;
+  }
+  .shop-items-card {
+    display: flex; 
+    flex-basis: calc(50% - 10px);  
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -279,5 +303,12 @@
 
   .ad-content-angles-search {
     margin-left: 92px;
+  }
+
+  .shop-items {
+    display: block;
+  }
+  .shop-items-card {
+    width: 100%;  
   }
 }
