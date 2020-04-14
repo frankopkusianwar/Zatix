@@ -243,7 +243,7 @@
   }
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* small devices (large phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .header-logo img {
     height: 20px;
@@ -286,12 +286,15 @@
   .shop-items {
     flex-wrap: wrap;
   }
+
   .shop-items-card {
-    display: flex; 
-    flex-basis: calc(50% - 10px);  
+    display: flex;
+    flex-basis: calc(50% - 10px);
   }
 }
 
+
+/* Extra small devices (phones, 320px and down) */
 @media only screen and (max-width: 320px) {
   .ad-content-angles {
     margin-left: 225px;
@@ -308,7 +311,8 @@
   .shop-items {
     display: block;
   }
+
   .shop-items-card {
-    width: 100%;  
+    width: 100%;
   }
 }
