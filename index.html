@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>ZATTIX</title>
+</head>
+<body>
+    <header>
+        <nav class="nav d-none d-xl-block d-lg-block d-md-block">
+            <div class="nav-content">
+                <div class="header-logo d-flex"><img src="assets/img/logo.PNG" alt="logo" class="mt-2 mt-xl-0 mt-lg-0 mt-md-0"><h3 class="align-self-center m-xl-1 m-lg-1 m-md-1">ZATTIX</h3></div>
+                <ul  class="nav-links">
+                    <li class="home"><a href="#"><i class="fa fa-home mx-1 mx-xl-3 mx-lg-3 mx-md-3"></i>HOME</a></li>
+                    <li class="d-flex nav-icon"><img src="assets/img/colection_icon.PNG" alt="collections" class="mx-xl-3 mx-lg-3 mx-md-3 mx-1 mt-0 mt-xl-1 mt-lg-1 mt-md-1"><a href="#" class="mt-xl-1 mt-lg-1 mt-md-1">COLLECTIONS</a></li>
+                    <li><a href="#"><i class="fa fa-shopping-cart mx-1 mx-xl-3 mx-lg-3 mx-md-3"></i>PURCHASE LIST</a></li>
+                </ul>
+                <div class="nav-btn ml-2 mx-xl-4 mx-lg-4 mx-md-4"><button>POST AN AD</button></div>
+                <div class="d-none d-lg-flex profile"><i class="fa fa-envelope align-self-center mr-4"></i><p class="align-self-center m-1">John Doe</p><img src="assets/img/johndoe.webp" alt="profile" class="prof-img"></div>
+            </div>
+        </nav>
+        <nav class="d-block d-xl-none d-lg-none d-md-none nav">
+            <div class="nav-content d-flex justify-content-between">
+                <div class="header-logo d-flex"><img src="assets/img/logo.PNG" alt="logo" class="align-self-center"><h3 class="align-self-center m-xl-1 m-lg-1 m-md-1">ZATTIX</h3></div>
+                <div class="menu-itemss">
+                    <div class="mt-2 menu-cont nav-content-i"><i class="fa fa-bars"></i></div>
+                    <div class="dropdown-content">
+                      <a href="#">HOME</a>
+                      <a href="#">COLLECTIONS</a>
+                      <a href="#">PURCHASE LIST</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="header-content d-none d-md-block d-lg-block d-sm-block">
+            <h1>ZATTIX</h1>
+            <p class="mb-5">Buying And Selling farm equipment Couldn't be Simpler than this!</p>
+            <form action="#">
+                <select class="inpt-txt">
+                    <option value="All Equipments">All Equipments</option>
+                    <option value="Tractor">Tractor</option>
+                    <option value="Garden tools">Garden tools</option>
+                    <option value="Spraying Cans">Spraying Cans</option>
+                  </select>
+                <input type="text" placeholder="What do you serach for?" class="pl-1 inpt-txt inpt-txt-spcl">
+                <input type="text" placeholder="Type" class="pl-1 inpt-txt inpt-txt-spcl">
+                <button class="btn-search" onclick="window.location.href = 'search.html';">Search</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <article class="ad-content mt-5 mt-xl-2 mt-lg-2 mt-md-2">
+            <div class="d-none d-xl-block d-lg-block d-md-block align-self-center ad-content-angle mr-4"><i class="fa fa-angle-left px-2 py-1"></i></div>
+            <div>
+                <h4 class="mb-2">HOT ADS</h4>
+                <img src="assets/img/motor.jpg" class="img-responsive max-width: 100%; height: auto;" alt="motor">
+                <div class="ad-content-angles"><i class="fa fa-angle-left mr-3 p-1"></i><i class="fa fa-angle-right p-1"></i></div>
+            </div>
+            <div class="mt-4 ml-3 ad-content-txt">
+                <h4>SAMRAT MOBILE MOTOR CONTROLLER</h4>
+                <p class="mt-1 mb-2">
+                    Samrat mobile motor controller allows the farmer to remotely control the 
+                    agricultural motor pump using the mobile or landline. An IVRS (Interactive Voice Response System) 
+                    in local language helps in making selections for switching ON or OFF. Farmers also receive voice
+                    alerts for faulty power supply, motor not starting, lack of water 
+                    in the well/bore, and attempt of device/ motor theft.
+                </p>
+                <p>By: John Doe</p>
+                <p class="mb-2">Location: Kampala</p>
+                <div class="d-flex ad-content-btns">
+                    <button class="p-1 border-top-0 border-bottom-0 btn1">$400</button>
+                    <button class="p-1 border-top-0 border-bottom-0 btn2"><i class="fa fa-shopping-cart"></i>Purchase Details</button>
+                </div>
+            </div>
+            <div class="d-none d-xl-block d-lg-block d-md-block align-self-center ad-content-angle mr-4"><i class="fa fa-angle-right px-2 py-1"></i></div>
+        </article>
+        <section class="container-fluid bg-light main-content pb-4">
+            <div class="row mx-md-5 mx-lg-5 px-lg-5 mx-xl-5 px-xl-5 mt-2">
+                <div class="col-12 border-bottom d-flex main-cont-txt pb-2 pt-2">
+                    <h4 class="font-weight-bold main-cont-txt-p1">
+                        Farm Garden Equipment <small>(Tacrors, Garden tools, Agrilite hoes, Intercultivators, Manual seeder and fertilizer)</small>
+                    </h4>
+                    <p class="all">view all</p>
+                </div>
+            </div>
+            <div class="mt-2 shop-items">
+                <div class="d-none d-xl-flex d-lg-flex d-md-flex border-right"><i class="fa fa-angle-left align-self-center pr-2"></i></div>
+                <article class="card shop-items-card ">
+                    <img class="card-img-top" src="assets/img/hoe.webp" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">AGRILITE HOE/POWRAH HOE042</h4>
+                        <p class="card-text card-money">New</p>
+                        <p class="card-text">From: kampala, Uganda</p>
+                        <div class="d-none d-xl-flex d-lg-flex d-md-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">450$</p></div>
+                    </div>
+                </article>
+                <article class="card shop-items-card">
+                    <img class="card-img-top" src="assets/img/seeder.webp" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">MANUAL SEEDER KK-MSD-S01</h4>
+                        <p class="card-money">OLd</p>
+                        <p class="">From: Mbale, Uganda</p>
+                        <div class="d-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">200$</p></div>
+                    </div>
+                </article>
+                <article class="card shop-items-card">
+                    <img class="card-img-top" src="assets/img/garden_tool.webp" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">GARDEN TOOLS 4 PCS SET (GTS092)</h4>
+                        <p class="card-text card-money">New</p>
+                        <p class="card-text">From: kampala, Uganda</p>
+                        <div class="d-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">500$</p></div>
+                    </div>
+                </article>
+                <article class="card shop-items-card">
+                    <img class="card-img-top" src="assets/img/intercult.webp" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">INTERCULTIVATOR / TILLER/EDGER KK IC</h4>
+                        <p class="card-text card-money">New</p>
+                        <p class="card-text">From: Soroti, Uganda</p>
+                        <div class="d-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">750$</p></div>
+                    </div>
+                </article>
+                <article class="card shop-items-card">
+                    <img class="card-img-top" src="assets/img/spade.jpg" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">GRAPE SHEAR HAND TOOL KK-APS-G05</h4>
+                        <p class="card-text card-money">New</p>
+                        <p class="card-text">From: kampala, Uganda</p>
+                        <div class="d-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">70$</p></div>
+                    </div>
+                </article>
+                <div class="d-none d-xl-flex d-lg-flex d-md-flex border-left"><i class="fa fa-angle-right align-self-center pl-2"></i></div>
+            </div>
+            <div class="row mx-md-5 mx-lg-5 px-lg-5 mx-xl-5 px-xl-5 mt-2">
+                <div class="col-12 border-bottom d-flex main-cont-txt pb-2">
+                    <h4 class="font-weight-bold main-cont-txt-p1">
+                        Farm Solar Equipment <small>(Solar Emergency Light, Boom Solar Light With Radio, Home Solar lamps)</small>
+                    </h4>
+                    <p class="all">view all</p>
+                </div>
+            </div>
+            <div class="mt-2 shop-items">
+                <div class="d-none d-xl-flex d-lg-flex d-md-flex border-right"><i class="fa fa-angle-left align-self-center pr-2"></i></div>
+                <article class="card shop-items-card">
+                    <img class="card-img-top" src="assets/img/picosolar.webp" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">PICO PLUS SOLAR EMERGENCY LIGHT</h4>
+                        <p class="card-text card-money">New</p>
+                        <p class="card-text">From: Entebe, Uganda</p>
+                        <div class="d-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">400$</p></div>
+                    </div>
+                </article>
+                <article class="card shop-items-card">
+                    <img class="card-img-top" src="assets/img/solar1.webp" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">PRO 2 SOLAR EMERGENCY LIGHT</h4>
+                        <p class="card-money">OLd</p>
+                        <p class="">From: Entebe, Uganda</p>
+                        <div class="d-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">200$</p></div>
+                    </div>
+                </article>
+                <article class="card shop-items-card">
+                    <img class="card-img-top" src="assets/img/solar2.png" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">BOOM SOLAR LAMP WITH FM RADIO & MP3 PLAYER</h4>
+                        <p class="card-text card-money">New</p>
+                        <p class="card-text">From: Entebe, Uganda</p>
+                        <div class="d-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">700$</p></div>
+                    </div>
+                </article>
+                <article class="card shop-items-card">
+                    <img class="card-img-top" src="assets/img/solar3.jpg" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">PRO 200 HOME60 SOLAR LAMP</h4>
+                        <p class="card-text card-money">OLD</p>
+                        <p class="card-text">From: Entebe, Uganda</p>
+                        <div class="d-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">250$</p></div>
+                    </div>
+                </article>
+                <article class="card shop-items-card">
+                    <img class="card-img-top" src="assets/img/solar5.jpg" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">PRO 200 SOLAR EMERGENCY LIGHT</h4>
+                        <p class="card-text card-money">New</p>
+                        <p class="card-text">From: kampala, Uganda</p>
+                        <div class="d-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">770$</p></div>
+                    </div>
+                </article>
+                <div class="d-none d-xl-flex d-lg-flex d-md-flex border-left"><i class="fa fa-angle-right align-self-center pl-2"></i></div>
+            </div>
+            <div class="row mx-md-5 mx-lg-5 px-lg-5 mx-xl-5 px-xl-5 mt-2">
+                <div class="col-12 border-bottom d-flex main-cont-txt pb-2">
+                    <h4 class="font-weight-bold main-cont-txt-p1">
+                        Farm Spray Chemical Equipment <small>(B-16 PLANT GROWTH REGULATOR, GIBRAX SP186 GROWTH REGULATOR)</small>
+                    </h4>
+                    <p class="all">view all</p>
+                </div>
+            </div>
+            <div class="mt-2 shop-items">
+                <div class="d-none d-xl-flex d-lg-flex d-md-flex border-right"><i class="fa fa-angle-left align-self-center pr-2"></i></div>
+                <article class="card shop-items-card">
+                    <img class="card-img-top" src="assets/img/pest1.jpg" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">B-16 PLANT GROWTH REGULATOR</h4>
+                        <p class="card-text card-money">New</p>
+                        <p class="card-text">From: Entebe, Uganda</p>
+                        <div class="d-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">40$</p></div>
+                    </div>
+                </article>
+                <article class="card shop-items-card">
+                    <img class="card-img-top" src="assets/img/pest2.jpg" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">GIBRAX SP186 GROWTH REGULATOR (PROMOTER)</h4>
+                        <p class="card-money">OLd</p>
+                        <p class="">From: Soroti, Uganda</p>
+                        <div class="d-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">90$</p></div>
+                    </div>
+                </article>
+                <article class="card shop-items-card">
+                    <img class="card-img-top" src="assets/img/pest3.jpg" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">BIO-PROTECT ORGANIC PLANT PEST REPELLENT</h4>
+                        <p class="card-text card-money">New</p>
+                        <p class="card-text">From: Soroti, Uganda</p>
+                        <div class="d-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">70$</p></div>
+                    </div>
+                </article>
+                <article class="card shop-items-card">
+                    <img class="card-img-top" src="assets/img/pest4.jpg" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">MULTIPLEX KRANTI MICRONUTRIENT</h4>
+                        <p class="card-text card-money">NEW</p>
+                        <p class="card-text">From: Soroti, Uganda</p>
+                        <div class="d-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">55$</p></div>
+                    </div>
+                </article>
+                <article class="card shop-items-card">
+                    <img class="card-img-top" src="assets/img/pest5.jpg" alt="card hoe">
+                    <div class="p-2">
+                        <h4 class="font-weight-bold card-tlte">ECONEEM PLUS - AZADIRACHTIN 10000 PPM</h4>
+                        <p class="card-text card-money">New</p>
+                        <p class="card-text">From: Soroti, Uganda</p>
+                        <div class="d-flex justify-content-between mt-3 pb-0"><p class="card-plus"><i class="fa fa-plus-square-o"></i></p><p class="card-money">50$</p></div>
+                    </div>
+                </article>
+                <div class="d-none d-xl-flex d-lg-flex d-md-flex border-left"><i class="fa fa-angle-right align-self-center pl-2"></i></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row mx-5 pt-5 pb-4 border-bottom mb-1">
+                <div class="col-12 col-xl-3 col-lg-3 col-md-3">
+                    <div class="d-flex">
+                        <img src="assets/img/footer_logo.PNG" alt="footer logo">
+                        <h1 class="align-self-center ml-3 footer-h1">ZATTIX</h1>
+                    </div>
+                    <p class="mt-3">
+                        Zattix is Kampala’s largest Agri Inputs Marketplace Platform providing wide choice of 
+                        quality inputs to farmers at their doorstep. Zattix is bringing accessibility of quality farm machinery and 
+                        personalized advisory by leveraging its Technology offering for farmer empowerment. 
+                    </p>
+                </div>
+                <div class="col-12 col-xl-3 col-lg-3 col-md-3 mt-2 mt-xl-0 mt-lg-0 mt-md-0">
+                    <h4 class="border-bottom pb-1 mb-1 footer-colored-p footer-h1">CATEGORIES</h4>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="footer-links">
+                                <li><a href="#" class="text-decoration-none">Tractors</a></li>
+                                <li><a href="#" class="text-decoration-none">Sprays</a></li>
+                                <li><a href="#" class="text-decoration-none">Garden Tools</a></li>
+                                <li><a href="#" class="text-decoration-none">Hoes</a></li>
+                                <li><a href="#" class="text-decoration-none">Solar Light</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="footer-links">
+                                <li><a href="#" class="text-decoration-none">Manual seeder and Fertilizer</a></li>
+                                <li><a href="#" class="text-decoration-none">Soil Moisture Indicator</a></li>
+                                <li><a href="#" class="text-decoration-none">Weeders</a></li>
+                                <li><a href="#" class="text-decoration-none">Roll Cut Secuture</a></li>
+                                <li><a href="#" class="text-decoration-none">Paddy Guard </a></li>
+                                <li><a href="#" class="text-decoration-none">Kuprah(sickle)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-3 col-lg-3 col-md-3 mt-2 mt-xl-0 mt-lg-0 mt-md-0">
+                    <h4 class="border-bottom pb-1 mb-1 ml-3 footer-colored-p footer-h1">NAVIGATION</h4>
+                    <ul class="footer-links">
+                        <li class="ml-3"><a href="#" class="text-decoration-none">Home</a></li>
+                        <li class="ml-3"><a href="#" class="text-decoration-none">Sign In</a></li>
+                        <li class="ml-3"><a href="#" class="text-decoration-none">Sign Up</a></li>
+                        <li class="ml-3"><a href="#" class="text-decoration-none">Terms & Conditions</a></li>
+                        <li class="ml-3"><a href="#" class="text-decoration-none">FAQ</a></li>
+                        <li class="ml-3"><a href="#" class="text-decoration-none">Help</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-xl-3 col-lg-3 col-md-3 mt-2">
+                    <div class="d-flex justify-content-around"><p class="footer-colored-p">COUNTRY</p><p class="border px-3 py-1">Uganda</p></div>
+                    <div class="d-flex justify-content-around mt-2"><p class="footer-colored-p">LANGUAGE</p><p class="border px-3 py-1">English</p></div>
+                    <div class="d-flex justify-content-around mt-2"><p class="footer-colored-p">CURRENCY</p><p class="border px-3 py-1">Shilling</p>
+                </div>
+            </div>
+            </div>
+            <div class="row mx-5 mt-2 pb-4 d-block d-xl-flex d-lg-flex d-md-flex justify-content-between">
+                <p>Copyright &COPY; 2020 Zattix.com. All Rights Reserved. Designed by Okiror Frank</p>
+                <div>
+                    <a href="#" class="lg-text footer-icon2"><i class="fa fa-yahoo ml-3"></i></a>
+                    <a href="#" class="lg-text footer-icon2"><i class="fa fa-at ml-3"></i></a>
+                    <a href="#" class="lg-text footer-icon2"><i class="fa fa-linkedin ml-3"></i></a>
+                    <a href="#" class="lg-text footer-icon2"><i class="fa fa-twitter ml-3"></i></a>
+                    <a href="#" class="lg-text footer-icon2"><i class="fa fa-facebook-f ml-3"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
